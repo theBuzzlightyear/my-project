@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_bullets",
+  "info": {
+    "displayName": "Bullets",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "bullet": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.points"
+    },
+    "UniqueComponentId": {
+      "type": "string"
+    }
+  }
+}

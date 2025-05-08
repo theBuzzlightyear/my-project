@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_carousels",
+  "info": {
+    "displayName": "Carousels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "UniqueComponentId": {
+      "type": "string"
+    },
+    "Carousel": {
+      "displayName": "slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.slide"
+    }
+  }
+}

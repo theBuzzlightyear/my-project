@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_social_navs",
+  "info": {
+    "displayName": "SocialNav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.socials"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "UniqueComponentId": {
+      "type": "string"
+    }
+  }
+}
